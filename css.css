@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+  html {
+  	margin: auto;
+  	color: #fff;
+  	font-size: 16px;
+  	line-height: 1rem;
+  }
+
+  body {
+  	width: 630px;
+  }
+
+  header {
+  	background-color: #c93042;
+  	height: 126px;
+  	text-align: center;
+  }
+
+  h1, h2 {
+  	font-family: serif;
+  	letter-spacing: .03em;
+  }
+
+  h1 {
+  	font-size: 3.4em;
+  	padding-top: 1.04rem;
+  	margin: 0;
+  }
+
+  h2 {
+  	font-size: 2.2em;
+  	padding: 1.5rem 1rem 1rem 1rem;
+  	margin-top: .4rem;
+
+  }
+
+  img {
+  	max-width: 100%;
+  	position: relative;
+  }
+
+  main {
+  	position: relative;
+  }
+
+  .details {
+  	background-color: #f6485f;
+  	width: 250px;
+  	height: 240px;
+  	text-align: center;
+  	position: absolute;
+  	right: 2rem;
+  	bottom: 2px;
+  	border-radius: .625em .625em 0 0;
+  }
+
+  .details h3, .details p {
+  	width: 250px;
+  	font-family: sans-serif;
+  	text-align: left;
+  }
+
+  .details h3 {
+  	padding: 1.85rem 0 .5em .75em;
+  	line-height: 1.15em;
+  	letter-spacing: .03em;
+  	color: #fffff8;
+  }
+
+  .details p {
+  	font-size: .83em;
+  	padding: 0 1.4rem .65rem .9rem;
+  	line-height: 1.35em;
+  	letter-spacing: .02em;
+  	color: #ffece3;
+  }
+
+  .call-to-action {
+  	background-color: #ffc5c1;
+  	height: 3.375rem;
+  	width: 12rem;
+  	margin: .1rem auto 0 auto;
+  	color: #643022;
+  	border-radius: .625em;
+  	position: relative;
+  }
+
+  h4 {
+  	font-size: 1.2em;
+  	width: 87px;
+  	position: absolute;
+  	top: .5rem;
+  	left: 3rem;
+  	line-height: 1.1em;
+  }
+
+  .arrow {
+  	color: #e55940;
+  	position: absolute;
+  	right: .75rem;
+  	bottom: 1rem;
+  	font-size: 2.6em;
+  }
+
